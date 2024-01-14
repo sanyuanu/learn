@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include"world.h"
 
 int main() {
-    printf("Hello world!!!\n");
-    return 0;
-	// ni
+    printf("Hello");
+    show_world();
+	return 0;
 }
